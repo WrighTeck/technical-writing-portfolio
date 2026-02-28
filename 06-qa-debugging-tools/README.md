@@ -1,4 +1,4 @@
-## 06 – QA Debugging Tools for Web, Mobile & OTT Testing
+## QA Debugging Tools for Web, Mobile & OTT Testing
 
 Practical documentation covering free debugging tools used in real-world QA workflows across platforms.
 
