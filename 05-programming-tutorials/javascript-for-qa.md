@@ -14,13 +14,13 @@ let username = "testUser";     // string value used for login validation
 const retryLimit = 3;          // maximum retry attempts
 let isLoggedIn = false;        // boolean flag to track session state
 
-// 2. Conditional Logic
+# 2. Conditional Logic
 if (response.status === 200) {   // check for successful API response
   console.log("Request successful");
 } else {                         // handle failed API response
   console.log("Request failed");
 }
-// 3. Looping Through Data
+# 3. Looping Through Data
 for (let i = 0; i < users.length; i++) {   // iterate through user list
   console.log(users[i].email);             // validate email field
 }
