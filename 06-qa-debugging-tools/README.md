@@ -71,7 +71,7 @@ It provides visibility into:
 
 #### Example: Console Error Investigation
 
-```text
+```javascript
 Uncaught TypeError: Cannot read properties of undefined
 ```
 QA should validate:
