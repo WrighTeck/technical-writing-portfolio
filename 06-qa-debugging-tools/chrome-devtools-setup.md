@@ -54,5 +54,6 @@ Used to:
 
 Common error example:
 
-```text
+```javascript
 Uncaught TypeError: Cannot read properties of undefined
+```
