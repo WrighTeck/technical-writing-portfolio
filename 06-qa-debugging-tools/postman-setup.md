@@ -1,89 +1,54 @@
-## Network
+# Postman – Setup & Configuration Guide
 
-**Used to:**
+## Overview
 
-- Inspect API requests and responses  
-- Validate status codes (200 / 401 / 403 / 500)  
-- Inspect headers and payloads  
-- Detect failed or blocked requests  
-- Identify CORS failures  
-- Validate authentication tokens  
+Postman is an API testing tool used to validate backend services independently of the user interface.
 
-**QA should confirm:**
+It enables QA engineers to:
 
-- Correct request URL  
-- Correct environment host  
-- Expected response structure  
-- No unexpected redirects  
+- Test authentication flows
+- Validate API request and response structure
+- Perform negative testing
+- Compare environment behavior (dev / staging / production)
+- Troubleshoot 401 and 403 authorization issues
+- Validate token lifecycle behavior
 
----
+Postman is ideal for isolating backend logic from frontend issues.
 
-## Elements
+## Installation
 
-**Used to:**
+1. Download Postman from https://www.postman.com/downloads/
+2. Install the desktop application.
+3. Launch Postman.
 
-- Inspect HTML structure  
-- Validate UI components  
-- Confirm CSS styling  
-- Verify dynamic rendering  
+## Initial Environment Setup
 
-Ideal for UI/UX validation and layout defect investigation.
+### Step 1 – Create an Environment
 
----
+1. Click **Environments**.
+2. Select **Create Environment**.
+3. Add environment variables such as:
+   - `base_url`
+   - `auth_token`
+   - `client_id`
+   - `client_secret`
 
-## Performance
+This allows switching between Dev, Staging, and Production.
 
-**Used to:**
+### Step 2 – Create a Basic API Request
 
-- Analyze page load timing  
-- Detect slow API responses  
-- Identify long-running scripts  
-- Evaluate rendering bottlenecks  
+Example:
 
----
-
-## Ideal QA Scenarios for Chrome DevTools
-
-Chrome DevTools is best suited for:
-
-- CORS issues  
-- JavaScript runtime errors  
-- UI rendering defects  
-- Network request validation  
-- Performance bottlenecks  
-- Broken resource loading  
-- Feature flag debugging  
-- Frontend/backend responsibility isolation  
-
----
-
-## Example QA Investigation Flow
-
-1. Reproduce the issue.  
-2. Open Console tab and check for runtime errors.  
-3. Open Network tab and locate failing request.  
-4. Inspect status code and response payload.  
-5. Confirm environment configuration.  
-6. Capture screenshots and network logs for defect report.  
-
----
-
-## When to Use Chrome DevTools
-
-Use Chrome DevTools when:
-
-- Investigating web-based application defects  
-- Troubleshooting CORS errors  
-- Validating frontend logic  
-- Confirming API responses match UI output  
-- Investigating performance slowdowns  
-- Supporting production issue triage
-
+```http
+GET {{base_url}}/user/profile
+Authorization: Bearer {{auth_token}}
+```
 QA should validate:
+
 - The correct environment is selected  
 - The authorization token is populated  
 - The status code matches expected behavior  
-- The response body matches API documentation
+- The response body matches API documentation  
 
 ## Testing Authentication Workflow
 Login Request Example
