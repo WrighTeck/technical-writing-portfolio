@@ -60,14 +60,20 @@ Beginner-friendly programming documentation tailored for QA professionals:
 
 Includes practical validation examples and real-world QA use cases.
 
-### 🛠 06 – QA Debugging Tools
-Documentation covering commonly used free debugging tools:
+### 🛠 06 – QA Debugging Tools for Web, Mobile & OTT Testing
+Practical documentation covering free debugging tools used in real-world QA workflows across platforms.
 
-- Charles Proxy  
-- Chrome DevTools  
-- Postman  
+Tools include:
+- Charles Proxy – Network traffic inspection & API validation  
+- Chrome DevTools – Front-end debugging, performance analysis, and console inspection  
+- Postman – API testing, authentication validation, and response verification  
 
-Includes setup guidance, real-world troubleshooting scenarios, and API validation workflows.
+Includes real-world debugging scenarios such as:
+- 403 Unauthorized API errors
+- CORS issues
+- Missing ad beacons on OTT platforms
+- Environment misconfigurations
+- Token expiration failures
 
 ---
 
