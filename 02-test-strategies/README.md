@@ -1,8 +1,8 @@
 # Test Strategies
 
-This section defines structured testing strategies used to guide planning, prioritization, execution, and release readiness across multiple platforms.
+This section defines testing strategies used for test planning, prioritization, execution, and release readiness across multiple platforms.
 
-While test plans define *what* will be tested, these strategy documents define *how* testing is approached to minimize risk and maximize stability.
+While test plans define *what* will be tested, these test strategy documents define *how* testing is approached to minimize risk and maximize stability.
 
 ---
 
