@@ -46,7 +46,7 @@ Testing will be conducted across:
 
 ### macOS
 - Latest supported macOS version
-- One previous stable version (if applicable)
+- Previous stable versions (where applicable)
 
 Testing will include both 64-bit environments and required hardware specifications.
 
