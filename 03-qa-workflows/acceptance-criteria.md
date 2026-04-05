@@ -1,4 +1,4 @@
-# Acceptance Criteria in QA Workflows
+# Acceptance Criteria for Requirements 
 
 ## What is Acceptance Criteria?
 
@@ -8,7 +8,7 @@ They provide a clear understanding of what needs to be tested and validated.
 
 ---
 
-## Why Acceptance Criteria Matters
+## Why Acceptance Criteria Matter?
 
 Clear acceptance criteria help:
 - Ensure alignment between QA, developers, and stakeholders
@@ -47,7 +47,7 @@ Clear acceptance criteria help:
 
 ## 🎯 Key Takeaway
 
-Clear, structured acceptance criteria using Given / When / Then improves communication, ensures testability, and helps teams deliver quality software efficiently.
+Clear, structured acceptance criteria using Given / When / Then improve communication, ensure testability, and help teams deliver quality software efficiently.
 
 
 ## Good vs Bad Acceptance Criteria
