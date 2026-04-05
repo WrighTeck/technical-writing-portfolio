@@ -29,7 +29,7 @@ Clear acceptance criteria help:
 - An error message is displayed for invalid credentials
 - The login button is disabled when fields are empty
 
-# Acceptance Criteria (BDD Style Examples)
+## Acceptance Criteria (BDD Style Examples)
 
 ## 🔐 User Login
 
